@@ -1,0 +1,80 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    font-family: Montserrat, Helvetica,Helvetica,Arial,sans-serif;
+}
+
+.menu {
+    color: black;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 11%;
+    box-shadow: 0px 5px 10px rgba(0 0 0 / 50%);
+   
+}
+
+
+.menu h1:hover {
+    text-decoration: underline black;
+    cursor: pointer;
+
+
+}
+
+ul h1 {
+    color: black;
+   
+    
+}
+
+.menu ul {
+    position: fixed;
+    display: flex;
+    margin-left: 28%;
+    padding-top: 1.5%;
+   
+}
+
+
+.menu ul img {
+    cursor: pointer;
+    position: fixed;
+    right: 88.7%;
+    width: 11%;
+    bottom: 87%;
+
+
+}
+
+h2 {
+  padding-top: 120px;
+}
+
+.menicko {
+    margin-left: 25%;
+    
+
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 700px) {
+
+.menu ul img {
+    width: 30%;
+    left: 3%;
+    bottom: 87.5%;
+}
+
+
+}
